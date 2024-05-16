@@ -1,0 +1,80 @@
+Explain the role of the following key properties in the Flexbox layout model.
+Solution:-
+1. justify-content:
+- The justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container.
+
+Some examples of justify-content are:
+i) justify-content: start;
+- Default value. Items are positioned at the beginning of the container.
+
+ii) justify-content: center;
+- Items are positioned in the center of the container.
+
+iii) justify-content: space-between;
+- Items will have space between them.
+
+iv) justify-content: space-around;
+- Items will have space before, between, and after them.
+
+v) justify-content: space-evenly;
+- Items will have equal space around them.
+
+
+2. align-items:
+- The align-items property sets the align-self value on all direct children as a group. In Flexbox, it controls the alignment of items on the Cross Axis. In Grid Layout, it controls the alignment of items on the Block Axis within their grid area.
+
+Some examples of align-items are:
+i) align-item: stretch;
+- Items are stretched to fit the container.
+
+ii) align-item: center;
+- Items are positioned at the center of the container.
+
+iii) align-item: start;
+- Items are positioned at the beginning of the container.
+
+iv) align-item: end;
+- Items are positioned at the end of the container.
+
+
+3. gap:
+- It defines the size of the gap between the rows and between the columns in flexbox, grid or multi-column layout.
+- It is also known as grid-gap.
+
+Some examples of grid-gap are:
+i) row:gap;
+- Sets the size of the gap between the rows in a grid or flexbox layout.
+
+ii) column-gap;
+- Sets the size of the gap between the columns in a grid, flexbox or multi-column layout.
+
+
+4. flex-direction:
+- The flex-direction property sets how flex items are placed in the flex container defining the main axis and the direction (normal or reversed).
+
+Some examples of flex-direction are:
+i) flex-direction: row;
+- Default value. The flexible items are displayed horizontally, as a row.
+
+ii) flex-direction: row-reverse;
+- Same as row, but in reverse order.
+
+iii) flex-direction: column;
+- The flexible items are displayed vertically, as a column.
+
+iv) flex-direction: column-reverse;
+- Same as column, but in reverse order.
+
+
+5. flex-wrap:
+- The flex-wrap property sets whether flex items are forced onto one line or can wrap onto multiple lines. If wrapping is allowed, it sets the direction that lines are stacked.
+
+Some examples of flex-wrap are:
+i) flex-wrap: nowrap;
+- Default value. Specifies that the flexible items will not wrap.
+
+i) flex-wrap: wrap;
+- Specifies that the flexible items will wrap if necessary.
+
+i) flex-wrap: wrap-reverse;
+- Specifies that the flexible items will wrap, if necessary, in reverse order.
